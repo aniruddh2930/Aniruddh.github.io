@@ -3,57 +3,204 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aniruddh - Software Developer Portfolio showcasing projects in game development, web, and graphics programming." />
     <link rel="stylesheet" href="style.css" />
-    <title>Aniruddh Portfolio</title>
+    <title>Aniruddh- Sodtware Developer</title>
   </head>
   <body>
     <!-- Navbar section -->
     <nav class="navbar">
-      <h1>My Portfolio</h1>
-      <button id="theme-toggle" class="theme-toggle">🌙</button>
+      <div class="nav-container">
+        <h1 class="logo">Aniruddh</h1>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <button id="theme-toggle" class="theme-toggle">🌙</button>
+        </div>
+      </div>
     </nav>
-    <!-- Hero Section -->
-    <section class="hero">
+       <section class="hero">
       <div class="container">
-        <h2>Hello, I'm <span class="highlight">Aniruddh</span></h2>
-        <p>A Passionate Software Developer</p>
-        <a href="#projects" class="btn">View Projects</a>
+        <div class="hero-content">
+          <h1>Hello, I'm <span class="highlight">Aniruddh</span></h1>
+          <p class="tagline">A Passionate Software Developer</p>
+          <p class="subtitle">Building projects across game development, web technologies, and graphics programming</p>
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <p>
+            I'm a dedicated software developer passionate about exploring different programming paradigms and 
+            technologies. From building interactive games to creating web applications and graphics techniques, 
+            I enjoy the challenge of learning new tools and solving complex problems.
+          </p>
+          <p>
+            My journey in computer science has taught me the importance of clean code, algorithmic thinking, 
+            and continuous learning.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
       <div class="container">
-        <h3>My Projects</h3>
+       <h2>Featured Projects</h2>
         <div class="projects-grid">
           <div class="project-card">
-            <h4>2D Platformer</h4>
-            <p>A 2D platformer game built with C#</p>
-            <a href="https://github.com/aniruddh2930/2D-platformer" class="btn">View Project</a>
+         <div class="project-header">
+              <h3>2D Platformer Game</h3>
+              <div class="tech-tags">
+                <span class="tag">C#</span>
+                <span class="tag">Unity</span>
+              </div>
+            </div>
+            <p>
+              A 2D platformer game that demonstrates game development fundamentals including physics, 
+              collision detection, and game state management. Showcases understanding of game loops and interactive systems.
+            </p>
+            <a href="https://github.com/aniruddh2930/2D-platformer" class="btn btn-secondary">View on GitHub →</a>
           </div>
 
           <div class="project-card">
-            <h4>CubixWeb</h4>
-            <p>A web project built with TypeScript</p>
-            <a href="https://github.com/aniruddh2930/CubixWeb" class="btn">View Project</a>
+            <div class="project-header">
+              <h3>CubixWeb</h3>
+              <div class="tech-tags">
+                <span class="tag">TypeScript</span>
+                <span class="tag">Web</span>
+              </div>
+            </div>
+            <p>
+              A modern web project built with TypeScript, demonstrating proficiency in type-safe development 
+              and web technologies. Focus on clean code architecture and developer experience.
+            </p>
+            <a href="https://github.com/aniruddh2930/CubixWeb" class="btn btn-secondary">View on GitHub →</a>
           </div>
 
           <div class="project-card">
-            <h4>Graphing Calculator</h4>
-            <p>A graphing calculator application built with Java</p>
-            <a href="https://github.com/aniruddh2930/graphing-calculator" class="btn">View Project</a>
+            <div class="project-header">
+              <h3>Graphing Calculator</h3>
+              <div class="tech-tags">
+                <span class="tag">Java</span>
+                <span class="tag">GUI</span>
+              </div>
+            </div>
+            <p>
+              A feature-rich graphing calculator application that demonstrates mathematical computation, 
+              data visualization, and user interface design. Explores algorithmic problem-solving and 
+              mathematical concepts.
+            </p>
+            <a href="https://github.com/aniruddh2930/graphing-calculator" class="btn btn-secondary">View on GitHub →</a>
           </div>
 
           <div class="project-card">
-            <h4>Rust Raytracer</h4>
-            <p>A ray tracing engine built with Rust</p>
-            <a href="https://github.com/aniruddh2930/rust-raytracer" class="btn">View Project</a>
+            <div class="project-header">
+              <h3>Rust Raytracer</h3>
+              <div class="tech-tags">
+                <span class="tag">Rust</span>
+                <span class="tag">Graphics</span>
+              </div>
+            </div>
+            <p>
+              A ray tracing engine in Rust exploring 3D graphics, rendering algorithms, and Rust's performance 
+              capabilities. Demonstrates interest in computational geometry and systems programming.
+            </p>
+            <a href="https://github.com/aniruddh2930/rust-raytracer" class="btn btn-secondary">View on GitHub →</a>
           </div>
 
           <div class="project-card">
-            <h4>Portfolio</h4>
-            <p>This portfolio website</p>
-            <a href="https://github.com/aniruddh2930/Aniruddh.github.io" class="btn">View Project</a>
+            <div class="project-header">
+              <h3>This Portfolio</h3>
+              <div class="tech-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+            </div>
+            <p>
+              A responsive portfolio website showcasing projects and skills. Built with modern web standards, 
+              featuring dark mode support and smooth interactions.
+            </p>
+            <a href="https://github.com/aniruddh2930/Aniruddh.github.io" class="btn btn-secondary">View on GitHub →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-list">
+              <span class="skill-badge">C#</span>
+              <span class="skill-badge">Java</span>
+              <span class="skill-badge">TypeScript</span>
+              <span class="skill-badge">Rust</span>
+              <span class="skill-badge">HTML/CSS</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Technologies</h3>
+            <div class="skill-list">
+              <span class="skill-badge">Unity</span>
+              <span class="skill-badge">Web Development</span>
+              <span class="skill-badge">Graphics Programming</span>
+              <span class="skill-badge">Game Development</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Concepts</h3>
+            <div class="skill-list">
+              <span class="skill-badge">Algorithms</span>
+              <span class="skill-badge">Data Structures</span>
+              <span class="skill-badge">OOP</span>
+              <span class="skill-badge">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-list">
+              <span class="skill-badge">C#</span>
+              <span class="skill-badge">Java</span>
+              <span class="skill-badge">TypeScript</span>
+              <span class="skill-badge">Rust</span>
+              <span class="skill-badge">HTML/CSS</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Technologies</h3>
+            <div class="skill-list">
+              <span class="skill-badge">Unity</span>
+              <span class="skill-badge">Web Development</span>
+              <span class="skill-badge">Graphics Programming</span>
+              <span class="skill-badge">Game Development</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Concepts</h3>
+            <div class="skill-list">
+              <span class="skill-badge">Algorithms</span>
+              <span class="skill-badge">Data Structures</span>
+              <span class="skill-badge">OOP</span>
+              <span class="skill-badge">Problem Solving</span>
+            </div>
           </div>
         </div>
       </div>
